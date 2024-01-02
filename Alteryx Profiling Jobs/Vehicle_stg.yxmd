@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>1000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Vehicles.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="STATE_REGISTRATION" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_TYPE" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_MAKE" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_MODEL" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_YEAR" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="TRAVEL_DIRECTION" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_OCCUPANTS" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="DRIVER_SEX" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="DRIVER_LICENSE_STATUS" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="DRIVER_LICENSE_JURISDICTION" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="PRE_CRASH" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="POINT_OF_IMPACT" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE_1" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE_2" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE_3" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="PUBLIC_PROPERTY_DAMAGE" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="1000" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="258" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="VEHICLE_TYPE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_36420_f0f8ec828d44244587c5de5007804618_\Engine_36420_6f4fc536750d8f4eb8d1c76f78e50bac~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="VEHICLE_TYPE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [VEHICLE_TYPE] in ('UNK','UNKNO', 'UNKNO', 'UNKOW', 'UNK L','UKN', 'UNKNW', 'UNKN', 'A', 'B', 'UNKOWN','') THEN 'UNKNOWN' &#xA;ELSEIF [VEHICLE_TYPE] in ('AMB', 'AMBU', 'AMBULENCE', 'AMBULANCE', 'AMBULCANCE', 'AMBUL' ,'AMBULACE', 'ANBUL', 'AMBL','ABULA','C', 'D', 'E', 'F', 'G') THEN 'AMBULANCE' &#xA;ELSEIF [VEHICLE_TYPE] in ('SEDAN', 'DR SEDAN') THEN 'SEDAN'&#xA;ELSEIF [VEHICLE_TYPE] in ('STATION WAGONSPORT UTILITY VEHICLE', 'SPORT UTILITY STATION WAGON') then 'STATION WAGON / SPORT UTILITY VEHICLE'&#xA;ELSE [VEHICLE_TYPE] ENDIF" field="VEHICLE_TYPE" size="1000" type="V_WString" />
+            <FormulaField expression="IF [TRAVEL_DIRECTION]=='S' THEN 'South'&#xA;ELSEIF [TRAVEL_DIRECTION]=='N' THEN 'North'&#xA;ELSEIF [TRAVEL_DIRECTION]=='W' THEN 'West'&#xA;ELSEIF [TRAVEL_DIRECTION]=='E' THEN 'East'&#xA;ELSEIF [TRAVEL_DIRECTION]=='U' THEN 'Unknown'&#xA;ELSEIF [TRAVEL_DIRECTION]=='-' THEN 'Unknown'&#xA;ELSE [TRAVEL_DIRECTION]&#xA;ENDIF" field="TRAVEL_DIRECTION" size="1000" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>VEHICLE_TYPE = IF [VEHICLE_TYPE] in ('UNK','UNKNO', 'UNKNO', 'UNKOW', 'UNK L','U...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_36420_f0f8ec828d44244587c5de5007804618_\Engine_36420_e600e8f5fd2ef64aa3f4581f0206b5d5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="210" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"VEHICLE_TYPE"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">True</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_36420_f0f8ec828d44244587c5de5007804618_\Engine_36420_de0eaeb991b4b342ad744860d0f85d83~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="414" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"VEHICLE_MAKE"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ToNumber([VEHICLE_YEAR])&gt;2023 THEN 9999 ELSE [VEHICLE_YEAR] ENDIF" field="VEHICLE_YEAR" size="1000" type="V_WString" />
+            <FormulaField expression="IF [VEHICLE_MAKE] in ('UNK','UNKNO', 'UNKNO', 'UNKOW', 'UNK L','UKN', 'UNKNW', 'UNKN', 'A', 'B', 'UNKOWN','') THEN 'UNKNOWN' &#xA;ELSEIF [VEHICLE_MAKE] in ('AMB', 'AMBU', 'AMBULENCE', 'AMBULANCE', 'AMBULCANCE', 'AMBUL' ,'AMBULACE', 'ANBUL', 'AMBL','ABULA','C', 'D', 'E', 'F', 'G') THEN 'AMBULANCE' &#xA;ELSE [VEHICLE_TYPE] ENDIF" field="VEHICLE_MAKE" size="1000" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>VEHICLE_YEAR = IF ToNumber([VEHICLE_YEAR])&gt;2023 THEN 9999 ELSE [VEHICLE_YEAR] EN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="654" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"VEHICLE_MODEL"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="234" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_36420_f0f8ec828d44244587c5de5007804618_\Engine_36420_6b79c0fb56afd94cbff26ce8e20d069a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Unique" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output26" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Vehicle_stg</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b75b38f8-254e-473b-ba12-68761c03f4f6" />
+      <Telemetry>
+        <PreviousWorkflowId value="bf68513f-a63e-46ec-bb4b-ca009d1daba4" />
+        <OriginWorkflowId value="bf68513f-a63e-46ec-bb4b-ca009d1daba4" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_ID" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_TYPE" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_INJURY" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_AGE" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EJECTION" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EMOTIONAL_STATUS" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="BODILY_INJURY" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="POSITION_IN_VEHICLE" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="SAFETY_EQUIPMENT" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_LOCATION" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ACTION" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COMPLAINT" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ROLE" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_SEX" size="254" source="File: D:\5 DADABI\38 Final Project Part 1 NYC Vehicle Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_18800_a8dc8ba89af83c46b2b207d829cc8987_\Engine_18800_1aeb1e6d01fdb14d99424adf06ba4622~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ToNumber([PERSON_AGE])&lt;0 THEN 9999 &#xA;ELSEIF ToNumber([PERSON_AGE])&gt;90 THEN 9999 ELSE [PERSON_AGE] ENDIF" field="PERSON_AGE" size="254" type="V_WString" />
+            <FormulaField expression="IF [SAFETY_EQUIPMENT] in ('-') THEN 'Unknown' ELSE [SAFETY_EQUIPMENT] ENDIF" field="SAFETY_EQUIPMENT" size="254" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PERSON_AGE = IF ToNumber([PERSON_AGE])&lt;0 THEN 9999 
+ELSEIF ToNumber([PERSON_AGE]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="402" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_18800_a8dc8ba89af83c46b2b207d829cc8987_\Engine_18800_b6be072f86c8e643b1224fe5861d6b72~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\AISHWA~1\AppData\Local\Temp\Engine_18800_a8dc8ba89af83c46b2b207d829cc8987_\Engine_18800_d0ca9fe0852ca44a8cd3f739076f0d35~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings>
+        <Position x="558" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CONTRIBUTING_FACTOR_1","CONTRIBUTING_FACTOR_2"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="16" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output26" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Person_stg</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="824ba5b8-6e78-44c2-a6bb-82ef48327219" />
+      <Telemetry>
+        <PreviousWorkflowId value="d8fdce1e-62c3-42da-8a9c-4a7acf0bc7fd" />
+        <OriginWorkflowId value="d8fdce1e-62c3-42da-8a9c-4a7acf0bc7fd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
